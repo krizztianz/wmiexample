@@ -13,6 +13,7 @@ Public Class clsWMI
     Private m_strOSVersion As String
     Private m_strSystemType As String
     Private m_strTPM As String
+    Private m_strFPM As String
     Private m_strWindowsDir As String
     Private m_strCapacityc As String
     Private m_strFreeSpacec As String
@@ -33,6 +34,7 @@ Public Class clsWMI
             m_strOSVersion = objMgmt("version").ToString()
             m_strComputerName = objMgmt("csname").ToString()
             m_strWindowsDir = objMgmt("windowsdirectory").ToString()
+            m_strFPM = objMgmt("FreePhysicalMemory").ToString()
         Next
 
         For Each objMgmt In objCS.Get
@@ -93,6 +95,12 @@ Public Class clsWMI
     Public ReadOnly Property TotalPhysicalMemory()
         Get
             TotalPhysicalMemory = m_strTPM
+        End Get
+
+    End Property
+    Public ReadOnly Property FreePhysicalMemory()
+        Get
+            FreePhysicalMemory = (CDbl(m_strFPM) * 1024)
         End Get
 
     End Property

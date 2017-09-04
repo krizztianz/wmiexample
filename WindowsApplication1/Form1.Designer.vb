@@ -46,6 +46,8 @@ Partial Class Form1
         Me.Label12 = New System.Windows.Forms.Label()
         Me.dcd = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.fpm = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -114,7 +116,7 @@ Partial Class Form1
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(49, 222)
+        Me.Label8.Location = New System.Drawing.Point(49, 250)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(96, 13)
         Me.Label8.TabIndex = 7
@@ -123,7 +125,7 @@ Partial Class Form1
         'cn
         '
         Me.cn.AutoSize = True
-        Me.cn.Location = New System.Drawing.Point(251, 26)
+        Me.cn.Location = New System.Drawing.Point(248, 26)
         Me.cn.Name = "cn"
         Me.cn.Size = New System.Drawing.Size(46, 13)
         Me.cn.TabIndex = 8
@@ -132,7 +134,7 @@ Partial Class Form1
         'cm
         '
         Me.cm.AutoSize = True
-        Me.cm.Location = New System.Drawing.Point(251, 54)
+        Me.cm.Location = New System.Drawing.Point(248, 54)
         Me.cm.Name = "cm"
         Me.cm.Size = New System.Drawing.Size(46, 13)
         Me.cm.TabIndex = 9
@@ -141,7 +143,7 @@ Partial Class Form1
         'cmdl
         '
         Me.cmdl.AutoSize = True
-        Me.cmdl.Location = New System.Drawing.Point(251, 82)
+        Me.cmdl.Location = New System.Drawing.Point(248, 82)
         Me.cmdl.Name = "cmdl"
         Me.cmdl.Size = New System.Drawing.Size(46, 13)
         Me.cmdl.TabIndex = 10
@@ -150,7 +152,7 @@ Partial Class Form1
         'osn
         '
         Me.osn.AutoSize = True
-        Me.osn.Location = New System.Drawing.Point(251, 110)
+        Me.osn.Location = New System.Drawing.Point(248, 110)
         Me.osn.Name = "osn"
         Me.osn.Size = New System.Drawing.Size(46, 13)
         Me.osn.TabIndex = 11
@@ -159,7 +161,7 @@ Partial Class Form1
         'osv
         '
         Me.osv.AutoSize = True
-        Me.osv.Location = New System.Drawing.Point(251, 138)
+        Me.osv.Location = New System.Drawing.Point(248, 138)
         Me.osv.Name = "osv"
         Me.osv.Size = New System.Drawing.Size(46, 13)
         Me.osv.TabIndex = 12
@@ -168,7 +170,7 @@ Partial Class Form1
         'st
         '
         Me.st.AutoSize = True
-        Me.st.Location = New System.Drawing.Point(251, 166)
+        Me.st.Location = New System.Drawing.Point(248, 166)
         Me.st.Name = "st"
         Me.st.Size = New System.Drawing.Size(46, 13)
         Me.st.TabIndex = 13
@@ -177,7 +179,7 @@ Partial Class Form1
         'tpm
         '
         Me.tpm.AutoSize = True
-        Me.tpm.Location = New System.Drawing.Point(251, 194)
+        Me.tpm.Location = New System.Drawing.Point(248, 194)
         Me.tpm.Name = "tpm"
         Me.tpm.Size = New System.Drawing.Size(46, 13)
         Me.tpm.TabIndex = 14
@@ -186,7 +188,7 @@ Partial Class Form1
         'wd
         '
         Me.wd.AutoSize = True
-        Me.wd.Location = New System.Drawing.Point(251, 222)
+        Me.wd.Location = New System.Drawing.Point(248, 250)
         Me.wd.Name = "wd"
         Me.wd.Size = New System.Drawing.Size(46, 13)
         Me.wd.TabIndex = 15
@@ -195,7 +197,7 @@ Partial Class Form1
         'dcc
         '
         Me.dcc.AutoSize = True
-        Me.dcc.Location = New System.Drawing.Point(251, 250)
+        Me.dcc.Location = New System.Drawing.Point(248, 278)
         Me.dcc.Name = "dcc"
         Me.dcc.Size = New System.Drawing.Size(46, 13)
         Me.dcc.TabIndex = 17
@@ -204,7 +206,7 @@ Partial Class Form1
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(49, 250)
+        Me.Label10.Location = New System.Drawing.Point(49, 278)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(91, 13)
         Me.Label10.TabIndex = 16
@@ -213,7 +215,7 @@ Partial Class Form1
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(49, 278)
+        Me.Label11.Location = New System.Drawing.Point(49, 306)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(100, 13)
         Me.Label11.TabIndex = 18
@@ -222,7 +224,7 @@ Partial Class Form1
         'dfc
         '
         Me.dfc.AutoSize = True
-        Me.dfc.Location = New System.Drawing.Point(251, 278)
+        Me.dfc.Location = New System.Drawing.Point(248, 306)
         Me.dfc.Name = "dfc"
         Me.dfc.Size = New System.Drawing.Size(46, 13)
         Me.dfc.TabIndex = 19
@@ -231,7 +233,7 @@ Partial Class Form1
         'dfd
         '
         Me.dfd.AutoSize = True
-        Me.dfd.Location = New System.Drawing.Point(251, 334)
+        Me.dfd.Location = New System.Drawing.Point(248, 362)
         Me.dfd.Name = "dfd"
         Me.dfd.Size = New System.Drawing.Size(46, 13)
         Me.dfd.TabIndex = 23
@@ -240,7 +242,7 @@ Partial Class Form1
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(49, 334)
+        Me.Label12.Location = New System.Drawing.Point(49, 362)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(101, 13)
         Me.Label12.TabIndex = 22
@@ -249,7 +251,7 @@ Partial Class Form1
         'dcd
         '
         Me.dcd.AutoSize = True
-        Me.dcd.Location = New System.Drawing.Point(251, 306)
+        Me.dcd.Location = New System.Drawing.Point(248, 334)
         Me.dcd.Name = "dcd"
         Me.dcd.Size = New System.Drawing.Size(46, 13)
         Me.dcd.TabIndex = 21
@@ -258,17 +260,37 @@ Partial Class Form1
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(49, 306)
+        Me.Label14.Location = New System.Drawing.Point(49, 334)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(92, 13)
         Me.Label14.TabIndex = 20
         Me.Label14.Text = "Disk Capacity (D:)"
+        '
+        'fpm
+        '
+        Me.fpm.AutoSize = True
+        Me.fpm.Location = New System.Drawing.Point(248, 222)
+        Me.fpm.Name = "fpm"
+        Me.fpm.Size = New System.Drawing.Size(46, 13)
+        Me.fpm.TabIndex = 25
+        Me.fpm.Text = "example"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(49, 222)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(143, 13)
+        Me.Label13.TabIndex = 24
+        Me.Label13.Text = "Free Physical Memory (RAM)"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(658, 421)
+        Me.Controls.Add(Me.fpm)
+        Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.dfd)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.dcd)
@@ -325,5 +347,7 @@ Partial Class Form1
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents dcd As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents fpm As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
 
 End Class

@@ -17,6 +17,7 @@ Public Class Form1
             osv.Text = .OSVersion
             st.Text = .SystemType
             tpm.Text = GetFileSize(CDbl(.TotalPhysicalMemory))
+            fpm.Text = GetFileSize(CDbl(.FreePhysicalMemory))
             wd.Text = .WindowsDirectory
             dcc.Text = GetFileSize(CDbl(.Capacityc))
             dfc.Text = GetFileSize(CDbl(.FreeSpacec))
